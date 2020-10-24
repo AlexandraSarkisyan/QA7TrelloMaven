@@ -15,7 +15,7 @@ public class CurrentBoardTests extends TestBase {
 
     @BeforeMethod
     public void initTest() {
-        //preferences
+        log4j.info("LoginTest:@BeforeMethod initTests()");
         loginPage= PageFactory.initElements(driver,LoginPageHelper.class);
         boardsPage=PageFactory.initElements(driver,BoardsPageHelper.class);
         qaHaifa7currentBoard = new CurrentBoardPageHelper(driver,"QAHaifa7");
@@ -48,6 +48,19 @@ public class CurrentBoardTests extends TestBase {
         int quantityListsAtTheEnd= qaHaifa7currentBoard.getQuantityLists();
         Assert.assertEquals(quantityListsAtTheEnd, quantityListsInTheBeginning +1, "The quantityListsAtTheEnd is not quantityListsInTheBeginning-1 ");
     }
+    @Test(dataProviderClass = DataProviders.class,dataProvider = "dataProviderCreateListRandom")
+    public void addNewListPositiveTest2(String title) {
+        log4j.startTestCase("addNewListPositiveTest2");
+        log4j.info("Parameter title - " + title);
+        int quantityListsInTheBeginning = qaHaifa7currentBoard.getQuantityLists();
+        log4j.info("Num of Pages: "+quantityListsInTheBeginning);
+        qaHaifa7currentBoard.addNewListToCurrentBoard(title);
+        int quantityListsAtTheEnd= qaHaifa7currentBoard.getQuantityLists();
+        log4j.info("Num of Pages: "+quantityListsAtTheEnd);
+        Assert.assertEquals(quantityListsAtTheEnd, quantityListsInTheBeginning +1, "The quantityListsAtTheEnd is not quantityListsInTheBeginning-1 ");
+        log4j.info("-----Test case was finished------");
+    }
+
 
     @Test
     public void putAnyListToArchive() {

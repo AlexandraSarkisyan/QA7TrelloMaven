@@ -89,8 +89,25 @@ public class DataProviders {
 
         return "pass" + (new Random()).nextInt();
     }
+    @DataProvider
+    public Iterator<Object[]> dataProviderCreateListRandom() {
+        List<Object[]> data = new ArrayList();
+        for(int i = 0; i < 4; ++i) {
+            data.add(new Object[]{this.generateRandomString()});
+        }
+        return data.iterator();
+    }
 
+    private Object generateRandomString() {
+        String symbols = "abcdefghijklmnopqrstuvwxyzABCDEFGJKLMNPRSTUVWXYZ0123456789";
+        Random random = new Random();
+        String title="";
+        for (int i = 2; i < 10 ; i++)
+            title += symbols.charAt(random.nextInt(symbols.length()));
 
+        return title;
+
+    }
 
 
 }

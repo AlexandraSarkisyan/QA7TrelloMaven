@@ -88,7 +88,12 @@ public class LoginPageHelper extends PageBase{
         return this;
     }
     public LoginPageHelper pressLoginButton() {
-        waitUntilElementIsClickable(loginButton,10);
+        //waitUntilElementIsClickable(loginButton,10);
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         loginButton.click();
         return this;
     }

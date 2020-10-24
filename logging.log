@@ -1,0 +1,137 @@
+2020-10-24 22:59:20 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 22:59:23 INFO  LogLog4j:16 - 
+2020-10-24 22:59:23 INFO  LogLog4j:17 - 
+2020-10-24 22:59:23 INFO  LogLog4j:18 - *******************************************************************
+2020-10-24 22:59:23 INFO  LogLog4j:19 -                    Test Case: LoginPositive
+2020-10-24 22:59:23 INFO  LogLog4j:20 - *******************************************************************
+2020-10-24 22:59:23 INFO  LogLog4j:42 - Parameter login - alexandra13sark@gmail.com
+2020-10-24 22:59:23 INFO  LogLog4j:42 - Parameter password - alex613e
+2020-10-24 22:59:47 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-24 22:59:56 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 22:59:58 INFO  LogLog4j:16 - 
+2020-10-24 22:59:58 INFO  LogLog4j:17 - 
+2020-10-24 22:59:58 INFO  LogLog4j:18 - *******************************************************************
+2020-10-24 22:59:58 INFO  LogLog4j:19 -                    Test Case: LoginPositive
+2020-10-24 22:59:58 INFO  LogLog4j:20 - *******************************************************************
+2020-10-24 22:59:58 INFO  LogLog4j:42 - Parameter login - alexandra13sark@gmail.com
+2020-10-24 22:59:58 INFO  LogLog4j:42 - Parameter password - alex613e
+2020-10-24 23:00:19 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-24 23:00:29 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 23:00:31 INFO  LogLog4j:16 - 
+2020-10-24 23:00:31 INFO  LogLog4j:17 - 
+2020-10-24 23:00:31 INFO  LogLog4j:18 - *******************************************************************
+2020-10-24 23:00:31 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginEmpty()
+2020-10-24 23:00:31 INFO  LogLog4j:20 - *******************************************************************
+2020-10-24 23:00:42 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-24 23:00:51 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 23:00:54 INFO  LogLog4j:16 - 
+2020-10-24 23:00:54 INFO  LogLog4j:17 - 
+2020-10-24 23:00:54 INFO  LogLog4j:18 - *******************************************************************
+2020-10-24 23:00:54 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginIncorrect()
+2020-10-24 23:00:54 INFO  LogLog4j:20 - *******************************************************************
+2020-10-24 23:00:54 INFO  LogLog4j:42 - Parameter login - 
+2020-10-24 23:00:54 INFO  LogLog4j:42 - Parameter password - alex613e
+2020-10-24 23:00:54 INFO  LogLog4j:42 - Parameter errorMessage - Missing email
+2020-10-24 23:01:00 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-24 23:01:09 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 23:01:12 INFO  LogLog4j:16 - 
+2020-10-24 23:01:12 INFO  LogLog4j:17 - 
+2020-10-24 23:01:12 INFO  LogLog4j:18 - *******************************************************************
+2020-10-24 23:01:12 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginIncorrect()
+2020-10-24 23:01:12 INFO  LogLog4j:20 - *******************************************************************
+2020-10-24 23:01:12 INFO  LogLog4j:42 - Parameter login - 123
+2020-10-24 23:01:12 INFO  LogLog4j:42 - Parameter password - alex613e
+2020-10-24 23:01:12 INFO  LogLog4j:42 - Parameter errorMessage - There isn't an account for this username
+2020-10-24 23:01:18 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-24 23:01:27 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 23:01:30 INFO  LogLog4j:16 - 
+2020-10-24 23:01:30 INFO  LogLog4j:17 - 
+2020-10-24 23:01:30 INFO  LogLog4j:18 - *******************************************************************
+2020-10-24 23:01:30 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginIncorrect()
+2020-10-24 23:01:30 INFO  LogLog4j:20 - *******************************************************************
+2020-10-24 23:01:30 INFO  LogLog4j:42 - Parameter login - anjnd@gmail
+2020-10-24 23:01:30 INFO  LogLog4j:42 - Parameter password - alex613e
+2020-10-24 23:01:30 INFO  LogLog4j:42 - Parameter errorMessage - There isn't an account for this email
+2020-10-24 23:01:37 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-24 23:01:46 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 23:01:49 INFO  LogLog4j:16 - 
+2020-10-24 23:01:49 INFO  LogLog4j:17 - 
+2020-10-24 23:01:49 INFO  LogLog4j:18 - *******************************************************************
+2020-10-24 23:01:49 INFO  LogLog4j:19 -                    Test Case: passwordIncorrectNegativeTest()
+2020-10-24 23:01:49 INFO  LogLog4j:20 - *******************************************************************
+2020-10-24 23:01:56 INFO  LogLog4j:42 - Parameter login - alexandra13sark@gmail.com
+2020-10-24 23:01:56 INFO  LogLog4j:42 - Parameter password - alex613e1
+2020-10-24 23:01:56 INFO  LogLog4j:42 - Parameter errorMessage - Incorrect email address and
+2020-10-24 23:01:58 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-24 23:06:30 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 23:06:56 INFO  LogLog4j:16 - 
+2020-10-24 23:06:56 INFO  LogLog4j:17 - 
+2020-10-24 23:06:56 INFO  LogLog4j:18 - *******************************************************************
+2020-10-24 23:06:56 INFO  LogLog4j:19 -                    Test Case: addNewListPositiveTest2
+2020-10-24 23:06:56 INFO  LogLog4j:20 - *******************************************************************
+2020-10-24 23:06:56 INFO  LogLog4j:42 - Parameter title - 788UMRU9
+2020-10-24 23:07:13 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-24 23:07:22 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 23:07:48 INFO  LogLog4j:16 - 
+2020-10-24 23:07:48 INFO  LogLog4j:17 - 
+2020-10-24 23:07:48 INFO  LogLog4j:18 - *******************************************************************
+2020-10-24 23:07:48 INFO  LogLog4j:19 -                    Test Case: addNewListPositiveTest2
+2020-10-24 23:07:48 INFO  LogLog4j:20 - *******************************************************************
+2020-10-24 23:07:48 INFO  LogLog4j:42 - Parameter title - 9oPW3hry
+2020-10-24 23:07:50 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-24 23:07:59 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 23:08:24 INFO  LogLog4j:16 - 
+2020-10-24 23:08:24 INFO  LogLog4j:17 - 
+2020-10-24 23:08:24 INFO  LogLog4j:18 - *******************************************************************
+2020-10-24 23:08:24 INFO  LogLog4j:19 -                    Test Case: addNewListPositiveTest2
+2020-10-24 23:08:24 INFO  LogLog4j:20 - *******************************************************************
+2020-10-24 23:08:24 INFO  LogLog4j:42 - Parameter title - hNRK5muV
+2020-10-24 23:08:26 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-24 23:08:35 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 23:09:01 INFO  LogLog4j:16 - 
+2020-10-24 23:09:01 INFO  LogLog4j:17 - 
+2020-10-24 23:09:01 INFO  LogLog4j:18 - *******************************************************************
+2020-10-24 23:09:01 INFO  LogLog4j:19 -                    Test Case: addNewListPositiveTest2
+2020-10-24 23:09:01 INFO  LogLog4j:20 - *******************************************************************
+2020-10-24 23:09:01 INFO  LogLog4j:42 - Parameter title - S1kcqmPw
+2020-10-24 23:09:04 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-24 23:14:06 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 23:14:32 INFO  LogLog4j:16 - 
+2020-10-24 23:14:32 INFO  LogLog4j:17 - 
+2020-10-24 23:14:32 INFO  LogLog4j:18 - *******************************************************************
+2020-10-24 23:14:32 INFO  LogLog4j:19 -                    Test Case: addNewListPositiveTest2
+2020-10-24 23:14:32 INFO  LogLog4j:20 - *******************************************************************
+2020-10-24 23:14:32 INFO  LogLog4j:42 - Parameter title - h3pZKeEn
+2020-10-24 23:14:32 INFO  LogLog4j:42 - Num of Pages4
+2020-10-24 23:14:34 INFO  LogLog4j:42 - Num of Pages5
+2020-10-24 23:14:34 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-24 23:14:43 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 23:15:09 INFO  LogLog4j:16 - 
+2020-10-24 23:15:09 INFO  LogLog4j:17 - 
+2020-10-24 23:15:09 INFO  LogLog4j:18 - *******************************************************************
+2020-10-24 23:15:09 INFO  LogLog4j:19 -                    Test Case: addNewListPositiveTest2
+2020-10-24 23:15:09 INFO  LogLog4j:20 - *******************************************************************
+2020-10-24 23:15:09 INFO  LogLog4j:42 - Parameter title - kyFlevfS
+2020-10-24 23:15:10 INFO  LogLog4j:42 - Num of Pages5
+2020-10-24 23:15:12 INFO  LogLog4j:42 - Num of Pages6
+2020-10-24 23:15:12 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-24 23:15:21 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 23:15:48 INFO  LogLog4j:16 - 
+2020-10-24 23:15:48 INFO  LogLog4j:17 - 
+2020-10-24 23:15:48 INFO  LogLog4j:18 - *******************************************************************
+2020-10-24 23:15:48 INFO  LogLog4j:19 -                    Test Case: addNewListPositiveTest2
+2020-10-24 23:15:48 INFO  LogLog4j:20 - *******************************************************************
+2020-10-24 23:15:48 INFO  LogLog4j:42 - Parameter title - Zd5fCzEy
+2020-10-24 23:15:48 INFO  LogLog4j:42 - Num of Pages6
+2020-10-24 23:15:51 INFO  LogLog4j:42 - Num of Pages7
+2020-10-24 23:15:51 INFO  LogLog4j:42 - -----Test case was finished------
+2020-10-24 23:16:00 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 23:16:26 INFO  LogLog4j:16 - 
+2020-10-24 23:16:26 INFO  LogLog4j:17 - 
+2020-10-24 23:16:26 INFO  LogLog4j:18 - *******************************************************************
+2020-10-24 23:16:26 INFO  LogLog4j:19 -                    Test Case: addNewListPositiveTest2
+2020-10-24 23:16:26 INFO  LogLog4j:20 - *******************************************************************
+2020-10-24 23:16:26 INFO  LogLog4j:42 - Parameter title - Mv7xk4zw
+2020-10-24 23:16:26 INFO  LogLog4j:42 - Num of Pages7
+2020-10-24 23:16:28 INFO  LogLog4j:42 - Num of Pages8
+2020-10-24 23:16:28 INFO  LogLog4j:42 - -----Test case was finished------

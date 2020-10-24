@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.net.URL;
 
 import org.example.SuiteConfiguration;
+import org.example.util.LogLog4j;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.Capabilities;
 
@@ -26,6 +27,7 @@ public class TestBase {
   protected static Capabilities capabilities;
 
   protected WebDriver driver;
+  public static LogLog4j log4j = new LogLog4j();
 
   @BeforeSuite
   public void initTestSuite() throws IOException {
